@@ -1,21 +1,20 @@
 ## Compromising windows using Metasploit
 Metasploit
 
-##Compromising windows using Metasploit
-##AIM:
-
+## Compromising windows using Metasploit
+## AIM:
 To Compromise windows using Metasploit .
-##DESIGN STEPS:
-##Step 1:
 
+## DESIGN STEPS:
+## Step 1:
 Install kali linux either in partition or virtual box or in live mode
-##Step 2:
 
+## Step 2:
 Investigate on the various categories of tools as follows:
-##Step 3:
+## Step 3:
 
 Open terminal and try execute some kali linux commands
-OUTPUT:
+## OUTPUT:
 
 ![280442420-54fd799e-0076-4a17-bf93-6dbc1aa42616](https://github.com/Bakkiyalakshmi29/Compromising-windows-using-Metasploit/assets/119406233/9fc9fe94-c417-44b6-a0fb-9f4c90fed9ce)
 
@@ -35,7 +34,7 @@ Check the status of apache2 ![280442562-a57a2348-c4de-4fb2-a465-904b37cfb9b0](ht
 
 
 Invoke msfconsole:
-OUTPUT:
+## OUTPUT:
 
 Type help or a question mark "?" to see the list of all available commands you can use inside msfconsole.
 
@@ -60,6 +59,6 @@ migrate -N explorer.exe at meterpreter > prompt, execute this command: netstat A
 
 keyscan_dump Shows the keystrokes captured so far ![280442832-f5f4a0a2-39cf-4592-9459-4840c30e9745](https://github.com/Bakkiyalakshmi29/Compromising-windows-using-Metasploit/assets/119406233/86d24b54-f783-482c-9f31-aa0fdc2172f9)
 
-RESULT:
+## RESULT:
 
 The Metasploit framework is used to compromise windows and is examined successfully.
